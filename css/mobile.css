@@ -24,7 +24,8 @@ h1, h2, h3, h4, h5 {
   font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
   font-weight: normal;
   letter-spacing: -0.05em;
-  margin: 0.4em 0; }
+  margin: 0.4em 0; 
+}
   h1 a, h2 a, h3 a, h4 a, h5 a {
     color: inherit; }
   h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
@@ -38,26 +39,22 @@ video {
   width: 100%; }
 
 h1 {
-  font-size: 3rem; }
-
-h2 {
   font-size: 2.5rem; }
 
+h2 {
+  font-size: 2.3rem; }
+
 h3 {
-  font-size: 2rem; }
+  font-size: 2.1rem; }
 
 h4 {
-  font-size: 1.5rem; }
+  font-size: 1.9rem; }
 
 h5 {
-  font-size: 1.2rem; }
+  font-size: 1.7rem; }
 
 h5.logo {
   font-size: 1.6rem; }
-
-h1.hero {
-  font-size: 4.5rem;
-  margin: 0.3em 0 0.1em; }
 
 p {
   line-height: 1.5em;
@@ -361,24 +358,6 @@ pre, .highlight pre, .highlight code {
   margin-bottom: 1em; }
 
 @media only screen and (min-width: 40em) {
-  html {
-    font-size: 22px; }
-
-  h1 {
-    font-size: 4rem; }
-
-  h2 {
-    font-size: 3.5rem; }
-
-  h3 {
-    font-size: 3rem; }
-
-  h4 {
-    font-size: 2.5rem; }
-
-  h5 {
-    font-size: 2rem; }
-
   .project {
     display: block;
     float: left;

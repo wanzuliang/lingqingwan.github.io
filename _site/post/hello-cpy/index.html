@@ -11,8 +11,6 @@
   <link rel="stylesheet" href="/css/mobile.css">
   <link rel="stylesheet" href="/css/desktop.css" media="(min-width:40em)">
   <link rel="stylesheet" href="/css/pygments.css">
-  <script type="text/javascript" charset="utf-8" src="/js/matchmedia.js"></script>
-  <script type="text/javascript" charset="utf-8" src="/js/picturefill.js"></script>
 </head>
 
 <body>
@@ -44,7 +42,7 @@
 
     <section id="main">
         <article class="container">
-          <h5 class="hero">火车票网上电话起售时间今起调整 高铁14点开售</h5>
+          <h1 class="hero">火车票网上电话起售时间今起调整 高铁14点开售</h1>
           <p>人民网北京1月8日电 人民财经从中国铁路总公司获悉，为均衡12306网站访问量，进一步改善用户体验，自2014年1月8日起，铁路部门对互联网、电话订票的起售时间做如下优化调整。</p>
 
 <p>一是在原有8:00至18:00（除14:00外）每整点放票的基础上，增加9:30、10:30、12:30、13:30、14:00、14:30六个放票时间点。</p>
@@ -56,7 +54,7 @@
     <footer>
     <nav class="container">
         <ul>
-            <li>非专业，非正式站点</li>
+            <li>非专业，非正式，非（想）盈利！ </li>
         </ul>
     </nav>
 </footer>
@@ -68,9 +66,6 @@
             var active = document.querySelector( 'header nav.main a.active' ).innerHTML.toLowerCase(),
                 links = document.querySelectorAll( 'header nav.main li a'),
                 selection = document.querySelector( 'header .nav-selection' ),
-                //subactive = document.querySelector( 'header nav.subnav a.active' ).dataset.subnav,
-                //sublinks = document.querySelectorAll( 'header nav.subnav li a'),
-                //subselection = document.querySelector( 'header .subnav-selection' ),
                 i, j, link;
             for ( i = 0; i < links.length; i++ ) {
                 link = links[ i ];
@@ -82,18 +77,6 @@
                     selection.className = 'nav-selection ' + active;
                 });
             }
-			/*
-            for ( i = 0; i < sublinks.length; i++ ) {
-                link = sublinks[ i ];
-                link.addEventListener( 'mouseover', function() {
-                    subselection.className = 'subnav-selection';
-                    subselection.className = 'subnav-selection ' + this.dataset.subnav;
-                });
-                link.addEventListener( 'mouseout', function() {
-                    subselection.className = 'subnav-selection ' + subactive;
-                });
-            }
-			*/
         }
     };
 </script>
