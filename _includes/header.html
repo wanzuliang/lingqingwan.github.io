@@ -1,0 +1,27 @@
+<header>
+    <div class="container">
+        <div class="profile">
+            <div class="avatar">
+				<img alt="avatar" src="http://d.lanrentuku.com/down/png/1307/medicoicons/virus.png" />
+			</div>
+        </div>
+        <h5 class="logo"><a href="/">lingqing.wan</a></h5>
+        <nav class="main">
+            <ul>
+                {% if page.nav == "blog" %}
+                    <li><a href="/" class="active">Blog</a></li>
+                {% else %}
+                    <li><a href="/">Blog</a></li>
+                {% endif %}
+                {% if page.nav == "about" %}
+					 <li><a href="/about" class="active">About</a></li>
+                {% else %}
+					 <li><a href="/about">About</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+        <div class="nav-slider">
+            <div class="nav-selection {{ page.nav }}"></div>
+        </div>
+    </div>
+</header>
